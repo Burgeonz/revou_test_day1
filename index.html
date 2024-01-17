@@ -3,16 +3,71 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Shrikhand&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
     <title>Kalkulator Matematika</title>
   </head>
+
   <body>
     <div class="header">
-      <p class="PKatik">Katik</p>
+      <p class="nama-utama"><b>Kalmatik</b> Kalkulator Matematika</p>
     </div>
+
+    <main>
+      <article>
+        <h2>Selamat Datang di Kalmatik</h2>
+        <p class="main-p1">Hai, Welcome to Kalkulator Matematika</p>
+
+        <img
+          src="https://i.pinimg.com/originals/3d/00/12/3d0012971d664495d9a6068bc26feeee.png"
+          alt="Persegi"
+          class="gambar-persegi"
+        />
+
+        <h2 class="main-h2">Informasi Persegi :</h2>
+
+        <p>
+          Persegi adalah bentuk geometri dua dimensi yang memiliki keempat sisi
+          dan keempat sudut yang sama besar sehingga apapun panjang sisi persegi
+          selalu sama (S)
+        </p>
+        <p><b>Luas Persegi</b>: (sisi x sisi)</p>
+        <p><b>Keliling Persegi</b>: (4 x sisi)</p>
+        <hr />
+        <h2>Hitung Luas dan Keliling Persegi</h2>
+        <div class="textbox-container">
+          <label for="textbox">Masukkan angka pada kotak bawah ini :</label>
+          <input
+            type="text"
+            id="textbox"
+            name="textbox"
+            placeholder="Masukkan angka..."
+          />
+          <button class="calculate-button" onclick="calculateSquare()">
+            Hitung
+          </button>
+          <button class="reset-button" onclick="resetCalculator()">Reset</button>
+          <br /><br />
+          <div id="output"></div>
+        </div>
+      </article>
+    </main>
   </body>
 </html>

@@ -1,11 +1,100 @@
+p {
+  font-family: 'Poppins', sans-serif;
+}
 .header {
-    padding: 60px;
+    padding: 45px;
     text-align: center;
-    background: #62d5f8;
+    background: #19a6d1;
     color: white;
     font-size: 30px;
   }
 
-.PKatik {
-  font-family: 'Oleo Script', system-ui;
+.nama-utama {
+  font-weight: normal;
+  font-family: 'Quicksand', sans-serif;
+  color: rgb(201, 214, 214);
+}
+
+.nama-utama b {
+  font-family: 'Carter One', sans-serif;
+  font-size: 30px;
+  color: beige;
+}
+
+h2 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+padding: 20px;
+}
+
+article {
+background-color: #f8f8f8;
+border-radius: 8px; 
+padding: 20px; 
+margin-bottom: 20px;
+}
+
+.main-p1 {
+  text-align: center;
+}
+
+.gambar-persegi {
+  display: block;
+  margin: 0 auto;
+  max-width: 50%;
+  height: auto;
+}
+
+.main-h2 {
+  text-align: left;
+}
+
+.textbox-container {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="text"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+button {
+  background-color: #3081D0;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#output {
+  font-family: Arial, Helvetica, sans-serif;
 }
