@@ -32,7 +32,7 @@
 
     <main>
       <article>
-        <h2>Selamat Datang di Kalmatik</h2>
+        <h2 class="mainh2">Selamat Datang di Kalmatik</h2>
         <p class="main-p1">Hai, Welcome to Kalkulator Matematika</p>
 
         <img
@@ -40,7 +40,8 @@
           alt="Persegi"
           class="gambar-persegi"
         />
-
+        <br><br>
+        <div class="blue-box"> 
         <h2 class="main-h2">Informasi Persegi :</h2>
 
         <p>
@@ -50,8 +51,8 @@
         </p>
         <p><b>Luas Persegi</b>: (sisi x sisi)</p>
         <p><b>Keliling Persegi</b>: (4 x sisi)</p>
-        <hr />
-        <h2>Hitung Luas dan Keliling Persegi</h2>
+      </div>
+        <h2 class="hitungLK">Hitung Luas dan Keliling Persegi</h2>
         <div class="textbox-container">
           <label for="textbox">Masukkan angka pada kotak bawah ini :</label>
           <input
@@ -63,11 +64,13 @@
           <button class="calculate-button" onclick="calculateSquare()">
             Hitung
           </button>
-          <button class="reset-button" onclick="resetCalculator()">Reset</button>
+          <button class="reset-button" onclick="resetCalculator()">
+            Reset
+          </button>
           <br /><br />
           <div id="output"></div>
         </div>
-      </article>
+            </article>
     </main>
   </body>
 </html>

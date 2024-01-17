@@ -12,7 +12,7 @@ p {
 .nama-utama {
   font-weight: normal;
   font-family: 'Quicksand', sans-serif;
-  color: rgb(201, 214, 214);
+  color: rgb(255, 255, 255);
 }
 
 .nama-utama b {
@@ -26,6 +26,9 @@ h2 {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.mainh2 {
+  color: #007bff;
+}
 main {
 padding: 20px;
 }
@@ -48,8 +51,18 @@ margin-bottom: 20px;
   height: auto;
 }
 
+.blue-box {
+  background-color: #fff;
+  color: #333;
+  padding: 20px;
+  border: 2px solid #3498db;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
 .main-h2 {
   text-align: left;
+  color: #007bff;
 }
 
 .textbox-container {
@@ -96,5 +109,13 @@ button:hover {
 }
 
 #output {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+.reset-button {
+  background-color: rgb(183, 158, 36);
+}
+
+.hitungLK {
+  color: #19a6d1;
 }
